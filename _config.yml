@@ -1,14 +1,14 @@
 # main text of home
-name: John Doe
-bio: A Man who travels the world eating noodles
+name: Dale Markowitz
+bio: In need of a summary
 
 # twitter summary info
-description: A blog about technology and stuff related
+description: Thinks about math and love
 
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/images/profile.jpg
+picture: assets/images/dale.jpg
 
 url: https://koppl.in/indigo
 # your url: http://USERNAME.github.io
@@ -26,24 +26,24 @@ highlighter: rouge
 # analytics-piwik-id: 1
 
 # if you don't want comments in your posts, set to false
-disqus: mydisqus
+disqus: false  
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
+facebook: dale.markowitz7 
+twitter: dalequark
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
 # linkedin: mylinkedin
-youtube: myyoutube
-spotify: myspotify
-github: mygithub
-stackoverflow: 7044681/mystackoverflow
-quora: userquora
-reddit: username
-medium: medium
-vimeo: myvimeo
-email: myemail@gmail.com
+# youtube: myyoutube
+# spotify: myspotify
+github: dalequark
+# stackoverflow: 7044681/mystackoverflow
+# quora: userquora
+# reddit: username
+medium: unquarked
+# vimeo: myvimeo
+# email: myemail@gmail.com
 
 authors:
     johndoe:
@@ -69,11 +69,11 @@ width: normal
 # paginate_path: "blog/:num/"
 
 # if you don't need projects, comment the *projects* configs below
-projects: true
+projects: false
 
 # if you don't need "about" or "blog", comment them out below
-about: false
-blog: true
+about: false 
+blog: false 
 
 # do you want to show the "read time" of the posts?
 read-time: true
