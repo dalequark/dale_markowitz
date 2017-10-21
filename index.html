@@ -1,10 +1,20 @@
 ---
 layout: page
-title: Home 
+title: Home
 ---
 
-<p>I'm a data scientist and engineer at OkCupid, where I try
-to match people up by personality or looks or math or whatever.
-Sometimes it works. Sometimes not so much. What can you do?
-I <a href="http://www.medium.com/@unquarked">write</a> and I will <a href="/speaking">speak</a> at your thing.</p>
+<div class="card-holder">
+  {% for member in site.data.articles %}
+    <div class="custom-card">
+      <a class="embedly-card" href="{{ member }}"></a>
+    </div>
+  {% endfor %}
 
+  <script src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+  <script>
+    embedly('on', 'card.rendered', function(iframe){
+      iframe.classList.add("is-loaded");
+      iframe.parentNode.parentNode.classList.add("is-loaded");
+    });
+  </script>
+</div>

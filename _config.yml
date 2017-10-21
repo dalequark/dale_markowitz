@@ -1,9 +1,6 @@
 # main text of home
 name: Dale Markowitz
-bio: Thinks about math and love at OkCupid &#9829;
-
-# twitter summary info
-description: Thinks about math and love
+bio: I'm a freelance data scientist/software engineer/journalist, previously @ OkCupid.
 
 # if it's an external image, update below for true
 # better with square images
@@ -25,10 +22,10 @@ highlighter: rouge
 # analytics-piwik-id: 1
 
 # if you don't want comments in your posts, set to false
-disqus: false  
+disqus: false
 
 # if you don't have any of social below, comment the line
-facebook: dale.markowitz7 
+facebook: dale.markowitz7
 twitter: dalequark
 # google: mygoogle
 # instagram: myinstagram
@@ -71,8 +68,8 @@ width: normal
 projects: false
 
 # if you don't need "about" or "blog", comment them out below
-about: false 
-blog: false 
+about: false
+blog: false
 
 # do you want to show the "read time" of the posts?
 read-time: true
