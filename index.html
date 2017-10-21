@@ -6,7 +6,7 @@ title: Home
 <div class="card-holder">
   {% for member in site.data.articles %}
     <div class="custom-card">
-      <a class="embedly-card" href="{{ member }}"></a>
+      <a class="embedly-card" data-card-controls="0" href="{{ member }}"></a>
     </div>
   {% endfor %}
 
