@@ -1,6 +1,6 @@
 # main text of home
 name: Dale Markowitz
-bio: Software Engineer at Google Research, Freelance Writer, previously @ OkCupid.
+bio: Software Engineer at Google Cloud AI. Formerly @OkCupid.
 
 # if it's an external image, update below for true
 # better with square images
@@ -40,20 +40,6 @@ github: dalequark
 medium: unquarked
 # vimeo: myvimeo
 email: dale@dalemarkowitz.com
-
-authors:
-    johndoe:
-        name: John Doe
-        bio: A Man who travels the world eating noodles
-        external-image: false
-        picture: assets/images/profile.jpg
-        twitter: johndoe
-    jamesfoster:
-        name: James Foster
-        bio: A Man who develops software with coffee
-        external-image: false
-        picture: assets/images/james.jpg
-        twitter: jamesfoster
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
